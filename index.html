@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МобілаЛьвів — Смартфони та аксесуари у Львові</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <div class="logo__icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect width="28" height="28" rx="6" fill="#2563EB"/>
+            <path d="M10 7h8a3 3 0 013 3v8a3 3 0 01-3 3h-8a3 3 0 01-3-3v-8a3 3 0 013-3z" stroke="#fff" stroke-width="1.5" fill="none"/>
+            <rect x="12" y="18" width="4" height="1" rx="0.5" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="logo__text">
+          <span class="logo__name">МобілаЛьвів</span>
+          <span class="logo__sub">Офіційний магазин</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#tradein" class="nav__link">Трейд-ін</a>
+        <a href="#service" class="nav__link">Ремонт</a>
+        <a href="#contacts" class="nav__link">Контакти</a>
+      </nav>
+      <a href="https://t.me/" class="btn btn--primary btn--sm header__cta">Telegram</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge">Офіційний магазин &middot; Львів</span>
+          <h1 class="hero__title">Смартфони та аксесуари у&nbsp;Львові з&nbsp;гарантією</h1>
+          <p class="hero__desc">Офіційні пристрої провідних брендів, трейд-ін зі знижкою до 20%, сервісний ремонт — усе в одному місці на вул. Городоцька, 45.</p>
+          <div class="hero__actions">
+            <a href="#catalog" class="btn btn--primary btn--lg">Перейти в каталог</a>
+            <a href="#tradein" class="btn btn--outline btn--lg">Трейд-ін</a>
+          </div>
+          <ul class="hero__features">
+            <li><svg width="16" height="16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Офіційна гарантія</li>
+            <li><svg width="16" height="16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Ремонт за день</li>
+            <li><svg width="16" height="16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Трейд-ін</li>
+            <li><svg width="16" height="16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Кредит 0%</li>
+          </ul>
+        </div>
+        <div class="hero__card">
+          <div class="hero__card-img">
+            <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop" alt="iPhone 15 Pro">
+          </div>
+          <div class="hero__card-info">
+            <div class="hero__card-left">
+              <span class="hero__card-name">iPhone 15 Pro</span>
+              <span class="hero__card-stock">Є в наявності</span>
+            </div>
+            <div class="hero__card-right">
+              <span class="hero__card-price">52 990 грн</span>
+              <span class="hero__card-oldprice">58 990 грн</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="catalog">
+      <div class="container">
+        <span class="section-tag">Асортимент</span>
+        <h2 class="section-title">Категорії товарів</h2>
+        <div class="categories__grid">
+          <a href="#" class="category-card">
+            <div class="category-card__img">
+              <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=200&fit=crop" alt="Смартфони">
+            </div>
+            <h3 class="category-card__name">Смартфони</h3>
+            <p class="category-card__desc">iPhone, Samsung, Xiaomi та інші</p>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-card__img">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop" alt="Навушники">
+            </div>
+            <h3 class="category-card__name">Навушники</h3>
+            <p class="category-card__desc">Бездротові та провідні</p>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-card__img">
+              <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=200&fit=crop" alt="Зарядні пристрої">
+            </div>
+            <h3 class="category-card__name">Зарядні пристрої</h3>
+            <p class="category-card__desc">Кабелі, адаптери, павербанки</p>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-card__img">
+              <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=300&h=200&fit=crop" alt="Чохли та скло">
+            </div>
+            <h3 class="category-card__name">Чохли та скло</h3>
+            <p class="category-card__desc">Захист для вашого пристрою</p>
+          </a>
+          <a href="#" class="category-card">
+            <div class="category-card__img">
+              <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=300&h=200&fit=crop" alt="Аксесуари">
+            </div>
+            <h3 class="category-card__name">Аксесуари</h3>
+            <p class="category-card__desc">Тримачі, попсокети, кільця</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Products -->
+    <section class="products">
+      <div class="container">
+        <div class="products__header">
+          <div>
+            <span class="section-tag">Популярне</span>
+            <h2 class="section-title">Хіти продажів</h2>
+          </div>
+          <a href="#" class="products__all">Весь каталог <svg width="16" height="16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+        <div class="products__grid">
+          <div class="product-card">
+            <div class="product-card__badge product-card__badge--hit">Хіт</div>
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=300&h=300&fit=crop" alt="iPhone 15 Pro">
+            </div>
+            <h3 class="product-card__name">iPhone 15 Pro</h3>
+            <p class="product-card__spec">256 GB &middot; Natural Titanium</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">52 990 грн</span>
+              <a href="#" class="btn btn--primary btn--xs">Купити</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=300&h=300&fit=crop" alt="Samsung Galaxy S24">
+            </div>
+            <h3 class="product-card__name">Samsung Galaxy S24</h3>
+            <p class="product-card__spec">128 GB &middot; Cobalt Violet</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">38 490 грн</span>
+              <a href="#" class="btn btn--primary btn--xs">Купити</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__badge product-card__badge--new">Новинка</div>
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=300&h=300&fit=crop" alt="Xiaomi 14">
+            </div>
+            <h3 class="product-card__name">Xiaomi 14</h3>
+            <p class="product-card__spec">256 GB &middot; Matte Black</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">24 990 грн</span>
+              <a href="#" class="btn btn--primary btn--xs">Купити</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1592950630581-03cb41342cc5?w=300&h=300&fit=crop" alt="Samsung Galaxy A55">
+            </div>
+            <h3 class="product-card__name">Samsung Galaxy A55</h3>
+            <p class="product-card__spec">128 GB &middot; Iceblue</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">18 490 грн</span>
+              <a href="#" class="btn btn--primary btn--xs">Купити</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__badge product-card__badge--sale">Знижка</div>
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1632633173522-47456de71b68?w=300&h=300&fit=crop" alt="iPhone 13">
+            </div>
+            <h3 class="product-card__name">iPhone 13</h3>
+            <p class="product-card__spec">128 GB &middot; Midnight</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">29 990 грн</span>
+              <a href="#" class="btn btn--primary btn--xs">Купити</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-card__img">
+              <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=300&h=300&fit=crop" alt="Redmi Note 13 Pro">
+            </div>
+            <h3 class="product-card__name">Redmi Note 13 Pro</h3>
+            <p class="product-card__spec">256 GB &middot; Aurora Purple</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">11 990 грн</span>
+              <a href="#" class="btn btn--primary btn--xs">Купити</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trade-In -->
+    <section class="tradein" id="tradein">
+      <div class="container tradein__inner">
+        <div class="tradein__content">
+          <span class="section-tag section-tag--light">Трейд-ін</span>
+          <h2 class="section-title section-title--white">Обміняй старий телефон на&nbsp;новий — вигідно</h2>
+          <p class="tradein__desc">Приймаємо будь-які смартфони в будь-якому стані. Прозора оцінка, миттєвий розрахунок. Жодних прихованих відрахувань.</p>
+          <a href="#" class="btn btn--white btn--lg">Залишити заявку на трейд-ін</a>
+        </div>
+        <div class="tradein__steps">
+          <div class="tradein__step">
+            <span class="tradein__step-num">01</span>
+            <div>
+              <h3 class="tradein__step-title">Безкоштовна оцінка</h3>
+              <p class="tradein__step-desc">Привезіть старий телефон — ми оцінимо його за 10 хвилин і назвемо чесну ринкову ціну без прихованих відрахувань.</p>
+            </div>
+          </div>
+          <div class="tradein__step">
+            <span class="tradein__step-num">02</span>
+            <div>
+              <h3 class="tradein__step-title">Бонус до +20%</h3>
+              <p class="tradein__step-desc">Отримайте до 20% понад ринкову ціну, якщо одразу обираєте новий смартфон у нашому магазині.</p>
+            </div>
+          </div>
+          <div class="tradein__step">
+            <span class="tradein__step-num">03</span>
+            <div>
+              <h3 class="tradein__step-title">Доплатіть різницю</h3>
+              <p class="tradein__step-desc">Зарахуємо вартість вашого пристрою в рахунок нового. Оплатіть лише різницю — і виходьте з новим смартфоном.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section class="service" id="service">
+      <div class="container service__inner">
+        <div class="service__left">
+          <span class="section-tag">Сервіс</span>
+          <h2 class="section-title">Ремонт і сервісне обслуговування</h2>
+          <p class="service__desc">Кваліфіковані майстри, оригінальні запчастини, гарантія на ремонт 90 днів. Більшість робіт виконуємо за день прямо у магазині.</p>
+          <div class="service__image">
+            <img src="https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?w=500&h=340&fit=crop" alt="Ремонт смартфонів">
+          </div>
+          <div class="service__brands">
+            <span class="service__brands-label">Ремонтуємо бренди:</span>
+            <div class="service__brands-list">
+              <span class="service__brand">iPhone</span>
+              <span class="service__brand">Samsung</span>
+              <span class="service__brand">Xiaomi</span>
+              <span class="service__brand">Huawei</span>
+              <span class="service__brand">OPPO</span>
+              <span class="service__brand">realme</span>
+            </div>
+          </div>
+        </div>
+        <div class="service__right">
+          <div class="service__card">
+            <h3 class="service__card-title">Послуги та вартість</h3>
+            <div class="service__list">
+              <div class="service__item">
+                <div>
+                  <span class="service__item-name">Заміна екрана</span>
+                  <span class="service__item-time">Час виконання: 1–2 год</span>
+                </div>
+                <span class="service__item-price">від 800 грн</span>
+              </div>
+              <div class="service__item">
+                <div>
+                  <span class="service__item-name">Заміна батареї</span>
+                  <span class="service__item-time">Час виконання: 30–60 хв</span>
+                </div>
+                <span class="service__item-price">від 500 грн</span>
+              </div>
+              <div class="service__item">
+                <div>
+                  <span class="service__item-name">Діагностика</span>
+                  <span class="service__item-time">Час виконання: 15 хв</span>
+                </div>
+                <span class="service__item-price service__item-price--free">безкоштовно</span>
+              </div>
+              <div class="service__item">
+                <div>
+                  <span class="service__item-name">Заміна роз'єму зарядки</span>
+                  <span class="service__item-time">Час виконання: 1 год</span>
+                </div>
+                <span class="service__item-price">від 400 грн</span>
+              </div>
+              <div class="service__item">
+                <div>
+                  <span class="service__item-name">Відновлення після води</span>
+                  <span class="service__item-time">Час виконання: 2–4 год</span>
+                </div>
+                <span class="service__item-price">від 700 грн</span>
+              </div>
+              <div class="service__item">
+                <div>
+                  <span class="service__item-name">Заміна задньої кришки</span>
+                  <span class="service__item-time">Час виконання: 1–2 год</span>
+                </div>
+                <span class="service__item-price">від 600 грн</span>
+              </div>
+            </div>
+            <a href="#contacts" class="btn btn--primary btn--lg service__cta">Записатися на ремонт</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+      <div class="container">
+        <span class="section-tag">Відгуки клієнтів</span>
+        <h2 class="section-title">Що кажуть покупці</h2>
+        <div class="reviews__grid">
+          <div class="review-card">
+            <div class="review-card__stars">
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+            </div>
+            <p class="review-card__text">&ldquo;Здав старий iPhone 12 у трейд-ін, отримав знижку 4 500 грн на новий. Все чесно і швидко — за 20 хвилин вийшов з новим телефоном.&rdquo;</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">А</div>
+              <div>
+                <span class="review-card__name">Андрій</span>
+                <span class="review-card__meta">29 років &middot; клієнт магазину</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+            </div>
+            <p class="review-card__text">&ldquo;Замінили екран на Samsung за 45 хвилин. Приємний персонал, якісно зроблено. Телефон як новий! Рекомендую всім.&rdquo;</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">О</div>
+              <div>
+                <span class="review-card__name">Оксана</span>
+                <span class="review-card__meta">34 років &middot; клієнт магазину</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+              <svg width="16" height="16" fill="#FBBF24" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+            </div>
+            <p class="review-card__text">&ldquo;Купив Xiaomi 14 за кращою ціною, ніж у великих мережах. Все офіційно, з гарантією 12 місяців. Дуже задоволений покупкою.&rdquo;</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">В</div>
+              <div>
+                <span class="review-card__name">Василь</span>
+                <span class="review-card__meta">22 років &middot; клієнт магазину</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts" id="contacts">
+      <div class="container contacts__inner">
+        <div class="contacts__header">
+          <span class="section-tag section-tag--cyan">Де нас знайти</span>
+          <h2 class="section-title section-title--white">Контакти</h2>
+        </div>
+        <div class="contacts__grid">
+          <div class="contacts__info">
+            <div class="contacts__group">
+              <span class="contacts__label">Адреса</span>
+              <span class="contacts__value">вул. Городоцька, 45, Львів</span>
+              <span class="contacts__sub">ТЦ «Центральний», 1-й поверх</span>
+            </div>
+            <div class="contacts__group">
+              <span class="contacts__label">Графік роботи</span>
+              <span class="contacts__value">Пн–Пт: 9:00–20:00</span>
+              <span class="contacts__sub">Сб–Нд: 10:00–19:00</span>
+            </div>
+            <div class="contacts__group">
+              <span class="contacts__label">Телефон</span>
+              <a href="tel:+380671234567" class="contacts__phone">+38 (067) 123-45-67</a>
+            </div>
+            <div class="contacts__buttons">
+              <a href="https://t.me/" class="btn btn--primary btn--lg contacts__btn">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                Написати в Telegram
+              </a>
+              <a href="viber://chat" class="btn btn--viber btn--lg contacts__btn">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.82.49 3.53 1.34 5L2 22l5.16-1.28A9.95 9.95 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.5c-.23.65-1.34 1.27-1.86 1.32-.5.05-.96.23-3.15-.66-2.62-1.07-4.28-3.77-4.41-3.95-.13-.17-1.05-1.4-1.05-2.67s.66-1.9.9-2.16c.24-.26.52-.33.69-.33.17 0 .35 0 .5.01.16.01.38-.06.59.45.22.52.74 1.81.8 1.94.07.13.12.28.02.45-.09.17-.14.28-.28.43-.13.15-.28.33-.4.44-.13.13-.27.27-.12.52.16.26.69 1.14 1.49 1.84.69.6 1.56.98 1.83 1.09.26.12.42.1.57-.06.16-.16.66-.77.84-1.04.17-.26.35-.22.59-.13.24.09 1.52.72 1.78.85.26.13.43.2.5.31.07.11.07.65-.16 1.3z"/></svg>
+                Написати у Viber
+              </a>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <div class="contacts__map-card">
+              <div class="contacts__map-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.123!2d24.02!3d49.84!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDUwJzI0LjAiTiAyNMKwMDEnMTIuMCJF!5e0!3m2!1suk!2sua!4v1" width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"></iframe>
+              </div>
+              <div class="contacts__map-info">
+                <svg width="20" height="20" fill="none" stroke="#2563EB" stroke-width="2"><path d="M10 1C6.13 1 3 4.13 3 8c0 5.25 7 11 7 11s7-5.75 7-11c0-3.87-3.13-7-7-7z"/><circle cx="10" cy="8" r="2.5"/></svg>
+                <div>
+                  <span class="contacts__map-addr">вул. Городоцька, 45</span>
+                  <span class="contacts__map-city">Львів, Україна</span>
+                </div>
+              </div>
+              <a href="https://goo.gl/maps" target="_blank" class="contacts__map-link">Відкрити в Google Maps <svg width="14" height="14" fill="none"><path d="M5 3h6v6M11 3L3 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="logo logo--light">
+            <div class="logo__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <rect width="28" height="28" rx="6" fill="#2563EB"/>
+                <path d="M10 7h8a3 3 0 013 3v8a3 3 0 01-3 3h-8a3 3 0 01-3-3v-8a3 3 0 013-3z" stroke="#fff" stroke-width="1.5" fill="none"/>
+                <rect x="12" y="18" width="4" height="1" rx="0.5" fill="#fff"/>
+              </svg>
+            </div>
+            <div class="logo__text">
+              <span class="logo__name">МобілаЛьвів</span>
+              <span class="logo__sub">Офіційний магазин</span>
+            </div>
+          </a>
+          <p class="footer__desc">Офіційний продаж смартфонів та аксесуарів у Львові. Трейд-ін, сервісний ремонт, гарантія 12 місяців.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Навігація</h4>
+          <a href="#catalog" class="footer__link">Каталог</a>
+          <a href="#tradein" class="footer__link">Трейд-ін</a>
+          <a href="#service" class="footer__link">Ремонт</a>
+          <a href="#contacts" class="footer__link">Контакти</a>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__heading">Контакти</h4>
+          <a href="tel:+380671234567" class="footer__link">+38 (067) 123-45-67</a>
+          <span class="footer__link">вул. Городоцька, 45</span>
+          <span class="footer__link">Пн–Пт: 9:00–20:00<br>Сб–Нд: 10:00–19:00</span>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2024 МобілаЛьвів. Всі права захищені.</span>
+        <span>Офіційна гарантія &middot; Сервісний центр</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
